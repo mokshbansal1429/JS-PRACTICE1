@@ -28,3 +28,21 @@ let myobj={
 const MyFunction = function(){
     console.log("hello world")
 }
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// 2 types of memory - stack and heap type memory
+//stack=primitive  heap=non-primitive 
+//in stack memory it return copy of variable while heap returns original
+let myname="moksh"
+let anothername=myname
+anothername="kaku"
+console.log(myname);
+console.log(anothername);
+let userone={
+    email:"moksh@google.com",
+    user:"user@ybl"
+}
+let usertwo=userone
+usertwo.email="hacrrr@google.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
